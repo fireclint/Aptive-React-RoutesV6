@@ -1,0 +1,54 @@
+.section-faq {
+    width: 100%;
+    margin: 3rem 0;
+}
+
+.section-faq .container {
+    max-width: 1240px;
+    padding: 1rem;
+    margin: auto;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.section-faq h3 {
+    font-size: 28px;
+    padding: 1rem 0;
+}
+
+.section-faq .col-1 p {
+    color: var(--grey);
+}
+
+.section-faq span {
+    color: var(--primary);
+}
+
+.section-faq h5 {
+    font-size: 1rem;
+    padding: .4rem 0;
+}
+
+.section-faq .faq {
+    padding: 1.2rem 0;
+}
+
+.section-faq .faq p {
+    color: var(--grey);
+}
+
+
+@media screen and (max-width:960px) {
+    .section-faq {
+        margin: 1rem 0;
+    }
+
+    .section-faq .container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+

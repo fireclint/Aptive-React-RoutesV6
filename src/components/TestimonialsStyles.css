@@ -1,0 +1,53 @@
+.testimonial {
+    width: 100%;
+    color: #fff;
+    margin: 3rem 0;
+}
+
+.testimonial .container {
+    max-width: 1240px;
+    padding: 1rem;
+    margin: auto;
+    overflow: hidden;
+}
+
+.testimonial .outline {
+    background-image: linear-gradient(to left, rgba(73, 50, 173, 0.5),rgba(73, 50, 173, 0.9)),
+    url('https://images.unsplash.com/photo-1562071707-7249ab429b2a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80');
+    width: 100%;
+    height: 450px;
+    background-position: left;
+    border-radius: 10px;
+}
+
+.testimonial .content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 50%;
+    justify-content: center;
+    padding: 3rem;
+}
+
+
+.testimonial .body {
+    padding: 1.2rem 0;
+}
+
+.testimonial .name p {
+    font-size: 14px;
+    color: #fff;
+}
+
+@media screen and (max-width:960px) {
+    .testimonial {
+        margin: 1rem 0;
+    }
+
+    .testimonial .content {
+        max-width: 100%;
+    }
+}
+
+
+
